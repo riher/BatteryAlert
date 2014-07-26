@@ -7,7 +7,7 @@
 
 Notify users that the battery level is low by sending alert message. This program is for Linux users.
 
-![Alt text](https://github.com/hm13/BatteryAlert/blob/master/notification_examplepng "こんなやつです")
+![Alt text](https://github.com/hm13/BatteryAlert/blob/master/notification_example.png "こんなやつです")
 
 # 必要なもの
 
