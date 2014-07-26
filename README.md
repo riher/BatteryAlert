@@ -1,5 +1,7 @@
 # なんこれ
 
+![Alt text](https://github.com/hm13/BatteryAlert/blob/master/battery_low_example.png "こんなやつです")
+
 ラップトップでLinuxのデスクトップ環境でcinnamonを使っているのですが、<br/>
 バッテリーが減ってもアラートを出してくれなくて、バッテリーが減ったのに気づかず、<br/>
 「めのまえが まっくらに なった!（強制シャットダウン）」<br/>
