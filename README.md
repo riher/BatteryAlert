@@ -1,6 +1,7 @@
 # なんこれ
 
-ラップトップで使ってるLinuxのデスクトップ環境（cinnamon）がバッテリーが減ってもアラート出してくれず、<br/>
+ラップトップでLinuxのデスクトップ環境（cinnamon）を使っていますが、<br/>
+バッテリーが減ってもアラート出してくれず、<br/>
 「めのまえが まっくらに なった!（強制シャットダウン）」<br/>
 となる事案が多発したので、バッテリーの残量が10%以下になったらアラートを出すようにしました
 
@@ -11,7 +12,7 @@ Notify users that the battery level is low by sending alert message. This progra
 
 （たいていの環境では全部そろってると思います）<br/>
 bash <br/>
-マンド（バッテリーのステータスとかを表示するコマンド） <br/>
+acpiコマンド（バッテリーのステータスとかを表示するコマンド） <br/>
 notify-sendコマンド（デスクトップ環境が持ってるアラート表示機能を呼ぶコマンド） <br/>
 
 You need bash, acpi command, and notify-send command. Usually, you already have them. 
