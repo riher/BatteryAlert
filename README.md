@@ -1,7 +1,5 @@
 # なんこれ
 
-![Alt text](https://github.com/hm13/BatteryAlert/blob/master/battery_low_example.png "こんなやつです")
-
 ラップトップでLinuxのデスクトップ環境でcinnamonを使っているのですが、<br/>
 バッテリーが減ってもアラートを出してくれなくて、バッテリーが減ったのに気づかず、<br/>
 「めのまえが まっくらに なった!（強制シャットダウン）」<br/>
@@ -9,6 +7,7 @@
 
 Notify users that the battery level is low by sending alert message. This program is for Linux users.
 
+![Alt text](https://github.com/hm13/BatteryAlert/blob/master/notification_examplepng "こんなやつです")
 
 # 必要なもの
 
