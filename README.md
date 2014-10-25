@@ -1,11 +1,11 @@
 # なんこれ
 
-ラップトップでLinuxのデスクトップ環境でcinnamonを使っているのですが、<br/>
-バッテリーが減ってもアラートを出してくれなくて、バッテリーが減ったのに気づかず、<br/>
+ラップトップでLinuxのデスクトップ環境としてcinnamonを使っているのですが、<br/>
+バッテリーが減ったときのアラートの回数が少なく、バッテリーが減ったのに気づかず、<br/>
 「めのまえが まっくらに なった!（強制シャットダウン）」<br/>
-となる事案が多発したので、バッテリーの残量が10%以下になったらアラートを出すようにしました
+という事案が多発したので、バッテリーの残量が10%以下になったらアラートを出すようにしました。
 
-Notify users that the battery level is low by sending alert message. This program is for Linux users.
+Notify users that the battery level is low by sending alert messages. This program is for Linux users.
 
 ![Alt text](https://github.com/hm13/BatteryAlert/blob/master/notification_example.png "こんなやつです")
 
@@ -21,8 +21,8 @@ You need bash, acpi command, and notify-send command. Usually, you already have 
 
 # 使い方
 
-スタートアップに加えてログインしなおしてください。<br/>
+スタートアップ（.xinitrcなど）に加えてログインしなおしてください。<br/>
 .bashrcに書いても一応大丈夫ですが、複数端末を立ち上げるとたくさんアラートが出てイラッ★ てなります。
 
-Add to startup program list.<br/>
-Using .bashrc is not recommended because when you use some terminals, frequent alert message makes you dizzy.
+Add to the startup program list.<br/>
+Using .bashrc is not recommended because when you use some terminals, frequent alert messages make you dizzy.
