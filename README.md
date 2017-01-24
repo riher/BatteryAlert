@@ -22,7 +22,7 @@ You need bash, acpi command, and notify-send command. Usually, you already have 
 # 使い方
 
 スタートアップ（.xinitrcなど）に加えてログインしなおしてください。<br/>
-.bashrcに書いても一応大丈夫ですが、複数端末を立ち上げるとたくさんアラートが出てイラッ★ てなります。
+.bashrcに書いても一応大丈夫ですが、複数端末を立ち上げた場合に大量のアラートが出てしまいます。
 
 Add to the startup program list.<br/>
 Using .bashrc is not recommended because when you use some terminals, frequent alert messages make you dizzy.
