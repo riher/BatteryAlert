@@ -2,7 +2,7 @@ while true; do
     
     sleep 120 # check battery_level every 2 minutes
     
-    battery_level=`acpi -b | grep -P -o '[0-9]+(?=%)'`
+    battery_level=`acpi -b | grep -P -o '[0-9]+(?=%)' | awk '{s+=$1} END {print s}'`
 
     # if discharging, charge = "Discharging"
     # if    charging, charge = ""
