@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 while true; do
     
     sleep 120 # check battery_level every 2 minutes
